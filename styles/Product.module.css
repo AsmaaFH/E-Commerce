@@ -1,0 +1,17 @@
+.product{
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+.card{
+  padding: 8px;
+}
+.img{
+  text-align: center;
+}
+.product p{
+  color: #575656;
+}
+.price{
+  color: #7b7878;
+}

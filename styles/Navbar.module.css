@@ -1,0 +1,17 @@
+.nav{
+  border-bottom: 1px solid rgb(87, 86, 86);
+}
+.nav,
+.nav a{
+  color: rgb(87, 86, 86);
+}
+.nav ul a{
+  padding: 0 10px;
+}
+.nav .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
