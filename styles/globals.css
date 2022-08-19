@@ -18,8 +18,8 @@ ul{
 .products{
   margin-top: 1em;
   margin-bottom: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 5px;
+  display: grid;
+  grid-template-columns: minmax(200px, max-content)
+  repeat(auto-fill, 300px) 30%;
+  grid-gap: 2rem;
 }
